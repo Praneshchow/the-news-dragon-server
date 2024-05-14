@@ -3,7 +3,7 @@ const app = express();
 const cors = require('cors');
 const port = process.env.PORT || 5000;
 
-const catagories = require('./data/catagories.json');
+const categories = require('./data/categories.json');
 
 app.use(cors());
 
@@ -11,8 +11,8 @@ app.get('/', (req, res) => {
     res.send('Dragon is running');
 });
 
-app.get('/catagories', (req, res) => {
-    res.send(catagories);
+app.get('/categories', (req, res) => {
+    res.send(categories);
 })
 
 app.listen(port, () => {
