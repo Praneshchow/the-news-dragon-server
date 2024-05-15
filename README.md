@@ -3,6 +3,8 @@
 
 First setup the backend server:     `mkdir the-news-dragon-server`
 
+npm init:       `npm init`
+
 npm install express:       `npm install express`
 
 Then create a file 'index.js'. I write my code in 'index.js'. 
