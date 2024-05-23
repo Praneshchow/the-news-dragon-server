@@ -7,9 +7,7 @@ const port = process.env.PORT || 5000;
 const categories = require('./data/categories.json');
 const news = require('./data/news.json');
 
-app.use(cors({
-    origin: 'https://the-news-dragon-83da0.web.app', 
-}));
+app.use(cors());
 
 app.get('/', (req, res) => {
     res.send('Dragon is running');
