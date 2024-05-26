@@ -24,7 +24,7 @@ Vercel login (I login with github):  `vercel`
 Vercel CLI 34.2.0
 > > No existing credentials found. Please log in:
 ? Log in to Vercel Continue with GitHub
-> Success! GitHub authentication complete for praneshchy23@gmail.com
+> Success! GitHub authentication complete for .....@gmail.com
 ? Set up and deploy “~\OneDrive\Desktop\PROJECTS\the-news-dragon-server”? yes
 ? Which scope do you want to deploy to? Pranesh's projects
 ? Link to existing project? no
